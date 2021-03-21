@@ -1,7 +1,11 @@
 <!doctype html>
 <html>
 <head>
-  <title>html</title><meta charset = "utf-8">
+  <title>html</title><meta charset = "utf-8"><style>
+    p{
+      margin:20px;
+    }
+  </style>
 </head>
 <body>
   <h1>1. html</h1>
@@ -40,7 +44,7 @@
     태그를 사용하여 시각적인 꾸밈보다는 정보의 목적을 보여주는 것이 중요<br>
   </p>
   <p style="margin:30px 20px 30px 20px;">
-    style에 들어가는 margin 순서<br>
+    &nbspstyle에 들어가는 margin 순서<br>
     4개 쓸 경우 : 위 오른쪽 아래 왼쪽<br>
     3개 쓸 경우 : 위 (오른쪽, 왼쪽) 아래<br>
     2개 쓸 경우 : (위, 아래) (오른쪽, 왼쪽)<br>
@@ -58,24 +62,24 @@
     위의 여우는 오소프 수업에서 사용하던 귀여운 친구다.<br>
   </p>
   <p>
-    <strong>속성</strong><br>
+    &nbsp<strong>속성</strong><br>
     태그의 심화된 문법, 태그의 이름만으로는 정보가 부족할 때 사용<br>
     img 태그에 추가되는 src, width도 속성<br>
   </p>
   <p>
-    <strong>부모 - 자식</strong><br>
+    &nbsp<strong>부모 - 자식</strong><br>
     태그 간의 관계를 나타내는 표현<br>
     고정된 관계의 태그들<br>
     * ul/ol 태그 - li 태그<br>
     서로가 있어야 의미 있는 관계. ul은 순서X, ol은 순서O<br>
   </p>
   <p>
-    <strong>문서의 구조</strong><br>
-    - title 태그<br>
+    &nbsp<strong>문서의 구조</strong><br>
+    &nbsp- title 태그<br>
     웹페이지의 제목 설정<br>
     페이지는 html로 title을 설정했다<br>
     검색엔진이 웹페이지를 분석할 때 가장 중요하게 생각하는 태그<br>
-    - meta 태그<br>
+    &nbsp- meta 태그<br>
     문서 그 자체를 설명하는 태그<br>
     웹 사이트의 검색 최적화와 관련된 가장 중요한 태그<br><br>
     위의 두 태그는 본문이 아님, 본문을 설명함<br>
@@ -85,29 +89,87 @@
     이 것이 전세계의 웹페이지가 가지고 있는 공통적인 구조<br>
   </p>
   <p>
-    <strong>링크</strong><br>
+    &nbsp<strong>링크</strong><br>
     HTML의 약자 HyperText Markup Language의 HyperText가 뜻하는 태그<br>
     html 태그는 anchor의 약자 a를 사용<br>
     href는 <u>H</u>yperText <u>Ref</u>erence의 약자<br>
-    targe="_blank" : 링크 클릭시 새창에서 페이지가 열리게 하는 속성<br>
-    title="~"      : 링크가 담고 있는 내용을 툴팁으로 보여주는 기능<br>
+    target="_blank" : 링크 클릭시 새창에서 페이지가 열리게 하는 속성<br>
+    title="~"       : 링크가 담고 있는 내용을 툴팁으로 보여주는 기능<br>
   </p>
   <p>
-    <strong>웹사이트</strong><br>
+    &nbsp<strong>웹사이트</strong><br>
     링크를 통해 서로 결합되어 있는 웹페이지들의 그룹<br>
     현재 페이지도 웹사이트의 일부, 아직 하나밖에 연결하지 않았지만...(1주차 기준)<br>
     웹은 인터넷의 일부<br>
   </p>
   <p>
-    인터넷이 동작하기 위해 필요한 최소 컴퓨터의 수 : <strong>2</strong><br>
-    인터넷으로 연결된 2대의 컴퓨터에 2개의 프로그램을 개발하여 각각 웹브라우저와 웹서버라는 이름을 붙이고 <strong>웹서버</strong>가 설치된 컴퓨터에는 info.cern.ch라는 주소를 부여한 뒤 이 컴퓨터 속에 index.html이라는 파일을 저장<br>
-    <strong>웹브라우저</strong>가 설치된 컴퓨터의 주소창에 http://info.cern.ch/index.html이라는 주소를 입력하면?<br>
+    &nbsp인터넷이 동작하기 위해 필요한 최소 컴퓨터의 수 : <strong>2</strong><br>
+    인터넷으로 연결된 2대의 컴퓨터에 2개의 프로그램을 개발하여 각각 웹브라우저와 웹서버라는 이름을 붙이고 <strong>웹서버</strong>가 설치된 컴퓨터에는 info.cern.ch라는 주소를 부여한 뒤 이 컴퓨터 속에 index.html이라는 파일을 저장<br><br>
+    &nbsp<strong>웹브라우저</strong>가 설치된 컴퓨터의 주소창에 http://info.cern.ch/index.html이라는 주소를 입력하면?<br>
     &nbsp> <strong>웹브라우저</strong>가 설치된 컴퓨터는 인터넷을 통해 "index.html이라는 파일의 코드를 달라"는 내용의 전기적인 신호를 info.cern.ch라는 주소의 컴퓨터에게 보냄<br>
     &nbsp> info.cern.ch에 설치된 <strong>웹서버</strong>가 index.html이라는 파일을 찾아 읽고 전기적인 신호로 바꿔 <strong>웹브라우저</strong>가 설치된 컴퓨터에 신호를 보냄<br>
     &nbsp> <strong>웹브라우저</strong>가 설치된 컴퓨터에 index.html 파일의 내용(코드)가 도착하고, <strong>웹브라우저</strong>는 이 코드를 읽어 웹페이지를 화면에 출력<br><br>
     이때 정보를 요청하는 컴퓨터를 클라이언트 컴퓨터, 응답하는 컴퓨터를 서버 컴퓨터라고 부르기도 함<br>
     웹브라우저를 다른 말로는 웹 클라이언트라고 함, 웹서버는 서버 컴퓨터에서 동작하므로 웹서버라고 함<br>
-    웹서버를 직접 설치할 수도 있고, 웹서버를 제공해주는 업체 즉 웹호스팅 업체를 이용할 수도 있음<br>
-    용량이 부족해서 웹서버를 깔 수가 없어요...<br>
+    웹서버를 직접 설치할 수도 있고, 웹서버를 제공해주는 업체 즉 웹호스팅 업체를 이용할 수도 있음<br><br>
+    &nbsp웹서버를 운영하려면<br>
+    1. 컴퓨터가 있어야함<br>
+    2. 그 컴퓨터가 항상 켜져 있어야함<br>
+    3. 웹서버라는 프로그램을 배워서 설치해야함<br>
+    4. 외부로 정보를 송신할 수 있게 설정해야함<br>
+    5. 즉 <strong>어려움</strong><br><br>
+    &nbsp웹브라우저가 웹서버에 접속하려면 웹서버가 설치된 컴퓨터의 주소, 즉 ip주소를 알아야함<br>
+    IPv4라고 되어 있는 주소가 바로 컴퓨터의 ip주소. 웹서버를 설치하면 http://ip주소/index.html하면 접속이 가능함(물론 나는 안 됨)<br>
+    해당 웹서버의 프로그램에 다른 컴퓨터로 접근하려면 지금은 같은 네트워크에 접속되어있어야만 가능<br>
+  </p>
+  <p>
+    &nbsp<strong>웹호스팅</strong><br>
+    인터넷에 연결된 컴퓨터 하나하나를 호스트라고 하고 이 컴퓨터를 빌려주는 게 호스팅<br>
+    즉 웹호스팅은 웹서버를 전문적으로 빌려주는 비즈니스<br>
+    github에 파일을 업로드하고 pages 기능을 활성화하면 github의 서버 컴퓨터에 웹서버가 켜져서 우리에게 웹서버의 주소를 알려줌. 이 웹서버의 주소를 방문자에게 알려주면 방문자는 github의 컴퓨터에 설치된 웹서버에 접속하게 됨<br>
+    정적인 html은 웹브라우저가 해석하기 때문에 서버쪽에서 해줄 일이 많지 않아 무료인 경우가 많고, 동적인 php, python, ruby, java 등은 대체로 비용을 냄<br>
+    <a href= "https://arm-b.github.io/FrontendStudy/" title = "arm-B의 웹페이지" target="_blank">https://arm-b.github.io/FrontendStudy/</a><br>
+    파일 이름 index.html로 해놓은 것이 열리는 것 같은데 그 이유는 아직 모른다. 난 바보닉가...<br>
+  </p><br><br>
+  <p>
+    &nbsp<strong>부록 #동영상 삽입</strong><br>
+    비슷한 내용이라 유튜브 외 다른 사이트 것도 데려올 수 있다<br>
+    유튜브에서 공유 버튼을 누르고 퍼가기를 누르면 다음과 같은 화면이 뜬다
+  </p>
+  <p style="margin:20px">
+    <img src="web1_video.png" width=90% title="생활코딩 WEB1 부록 코드의 힘 퍼가기 화면"><br>
+  </p>
+  <p>
+    퍼가기~embed~이전에는 source~코드<br>
+    iframe 태그가 동영상에 사용되는 것을 알 수 있음<br>
+    아래는 동영상
+  </p>
+  <p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </p>
+  <p>
+    &nbsp<strong>부록 #댓글 기능</strong><br>
+    <a href = "https://disqus.com" target="_blank" title="disqus 댓글 기능">https://disqus.com</a><br>
+    백엔드 기능을 알아야 댓글 기능 직접 구현 가능<br>
+    데이터베이스까지 구현... 정말 많은 게 필요<br>
+    스팸 차단 기능 같은 것들도 필요~ 이미지~ 서비스 연동~ 등등...<br>
+    남들이 만든 댓글을 웹사이트에 추가 -> DISQUS나 LiveRe서비스<br>
+    DISQUS에 웹사이트를 추가(create site)하고 시작<br>
+    universal cord라는 버튼을 클릭하면 긴 코드가 나옴 그게 html 코드라 갖다 쓰면 됨<br>
+    주소가 file로 시작하면 안 됨. 웹서버를 통해 열어야함. 안 그러면 보안상의 이유로 안 열림<br>
+    localhost(=127.0.0.1)/index.html하면 나온다고는 하나, 웹서버를 안 깔아서 확인은 못함.</br>
+  </p>
+  <p>
+    &nbsp<strong>부록 #채팅 기능</strong><br>
+    <a href = "https://www.tawk.to" target="_blank" title="tawk 채팅 기능">https://www.tawk.to</a><br>
+    이것도 웹서버 깔아야 가능. 채팅을 넣으면 웹서버 측에서 채팅이 왔다는 알림이 뜸<br>
+  </p>
+  <p>
+    &nbsp<strong>부록 #웹페이지 분석기</strong><br>
+    <a href="https://analytics.google.com" target="_blank" title="구글 analytics 웹페이지 분석 기능">https://analytics.google.com</a><br>
+    몇 명이 방문했는지, 어떤 경로로 웹사이트에 왔는지, 어떤 경로로 이동하고 있는지, 어떤 환경에서 웹사이트를 탐색하고 있는지를 제공<br>
+    모바일 앱, 웹페이지 등 원하는 걸로 변경<br>
+    데이터가 없으면 아무 것도 할 수 없다. 그러므로 우선 데이터를 쌓고 분석이 필요하면 분석을 해라<br>
   </p>
 </body>
+
