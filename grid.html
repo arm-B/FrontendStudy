@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8"><title>GRID</title><style>
+      div{
+        border: 5px solid gray;
+      }
+      h1{
+        border-bottom : 5px solid gray;
+        padding:10px;
+        margin :3px;
+      }
+      p{
+        margin:40px 20px;
+      }
+      #grid{
+        margin : 0px;
+        border:5px solid pink;
+        display:grid;
+        grid-template-columns:150px 1fr;
+      }
+      #css{
+        font-size:20px;
+        font-weight: bold;
+        color : red;
+        padding : 0px;
+        border:none;
+        text-decoration:none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GRID</h1>
+    <div id= "grid">
+      <div>NAVIGATION</div>
+      <div>ARTICLE</div>
+    </div>
+    <p>
+      div : 무색무취의 태그, 디자인용 태그 기본적으로 블록 레벨 태그<br>
+      span : 마찬가지로 무색무취의 태그, 디자인용 태그 기본적으로 인라인 레벨 태그<br><br>
+      @@px 1fr : 나머지 공간을 다 차지하도록 만듦<br>
+      1fr 1fr : 두 개가 반반<br>
+      2fr 1fr : 왼쪽 게 2/3 오른쪽 게 1/3 차지 <br><br>
+      grid는 내부의 텍스트가 많아지면 자동으로 칸이 커지고 옆에 있는 태그역시도 같이 크기에 맞춰 커진다<br><br>
+      최신 기술이므로 데이터에 근거해서 써도 되는지 안 되는지를 확인해야함. <a href = "http://caniuse.com/">caniuse.com</a>에서 현재 웹브라우저에서 얼마나 그 기술을 사용하고 있는지 보여준다<br>
+      초록색이면 쓸 수 있다 빨간색은 못 쓴다 풀색은 부분적으로 지원<br><br>
+
+      만약 부모 그리드를 #grid라고 하고, 그 내부에 ol이 있다고 하자. style 태그 내에 #grid ol{}은 부모가 grid인 ol에게만 해당되는 내용<br><br>
+      <a href="css.html" id="css">back to CSS</a>
+    </p>
+  </body>
+</html>

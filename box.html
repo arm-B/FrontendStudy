@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8"><title>BOX</title><style>
+      h1, h2{
+        border-bottom : 5px solid gray;
+        padding:10px;
+        margin :10px;
+      }
+      h2{
+        margin : 15px;
+      }
+      a{
+        border : 3px dotted green;
+        padding : 10px;
+      }
+      p{
+        margin:40px 20px;
+      }
+      #css{
+        font-size:20px;
+        font-weight: bold;
+        color : red;
+        padding : 0px;
+        border:none;
+        text-decoration:none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BOX</h1><h2>BOX</h2><p>
+    h1태그는 화면 전체를 사용, <a href = https://opentutorials.org/course/3086/18319>a</a>태그는 줄바꿈이 되지않고 다른 콘텐츠들과 같은 라인에 위치<br><br>
+    이런 차별은 왜 존재하는가?<br>
+    h1태그는 제목태그이므로 화면 전체를 사용하는 것이 더 편리하고, 링크는 화면 전체를 사용하는 것이 더 불편해서 딱 자기의 컨텐츠 크기만큼을 쓰는 것이라고 짐작할 수 있음<br>
+    &nbsp> 즉 태그의 성격과 일반적인 쓰임에 따라 달라짐<br><br>
+    화면 전체를 쓰는 태그를 <strong>블럭 레벨 엘리먼트</strong>, 자신의 컨텐츠 크기만큼을 쓰는 것을 <strong>인라인 엘리먼트</strong>라고 부름<br>
+    블럭 레벨 엘리먼트인 태그의 스타일에 <strong>display:inline;</strong> 속성을 추가하면 자신의 컨텐츠 크기만큼 차지하게 만들 수 있음<br>
+    즉 언제든 바꿀 수 있음<br>
+    display:none;이라고 하면 아예 태그의 내용이 화면에서 사라진다<br><br>
+    padding : 컨텐츠 내부의 여백<br>
+    margin : 컨텐츠 외부의 여백<br>
+    width 값을 변경하면 100px의 크기(폭)만큼 태그의 크기가 변화, 높이를 변경하고 싶다면 height 값을 변경하면 된다<br><br>
+    style 태그 내 겹치는 내용이 많다면 aa, bb{}로 해서 공통되는 부분을 묶는 것도 가능하다.<br><br>
+    border-color, border-style, border-width 등<br><br>
+    <a href="css.html" id="css">back to CSS</a>
+  </p>
+  </body>
+</html>

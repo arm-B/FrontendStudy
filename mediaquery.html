@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MEDIAQUERY</title><meta charset="utf-8"><style>
+      div{
+        border:5px solid green;
+        font-size:60px;
+      }
+      h1{
+        border-bottom : 5px solid gray;
+        padding:10px;
+        margin :3px;
+      }
+      p{
+        margin:40px 20px;
+      }
+      #css{
+        font-size:20px;
+        font-weight: bold;
+        color : red;
+        padding : 0px;
+        border:none;
+        text-decoration:none;
+      }
+      @media(min-width:800px){
+        div{
+          display:none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MEDIAQUERY</h1>
+    <div>
+    <p>
+      RESPONSIVE<br>
+      @media(min-width:800px){<br>
+      &nbsp&nbspdiv{<br>
+      &nbsp&nbsp&nbsp&nbspdisplay:none;<br>
+      &nbsp&nbsp}<br>
+      }<br>
+      이 그리드는 너비 800px을 넘어가면 사라진다는 내용의 코드<br>
+      min-width를 max-width로 바꾸면 너비 800px 아래로 가면 사라진다는 내용의 코드가 됨<br>
+      어떠한 조건을 만족할 때만 CSS의 내용이 동작하도록 하는 것이 가능하게 하는 것이 미디어 쿼리<br><br>
+      <a href="css.html" id="css">back to CSS</a>
+    </p>
+    </div>
+  </body>
+</html>
